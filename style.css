@@ -1,0 +1,42 @@
+body {
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#Gra{
+    width: 400px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+#character {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/mateusz\ gontarek.png);
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    background-image:url(./img/263485790_439176674519629_4991681295232480452_n.png) ;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
